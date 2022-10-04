@@ -1,7 +1,7 @@
 {
-    "name": "It's all about Insects",
-    "short_name": "Insects App",
-    "description": "This app loves insects.",
+    "name": "Students | App",
+    "short_name": "Students App",
+    "description": "This app loves students.",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#00ffff",
@@ -17,5 +17,5 @@
         "type": "image/png"
       }
     ],
-    "start_url": "/insects/index.html"
+    "start_url": "/index.html"
   }

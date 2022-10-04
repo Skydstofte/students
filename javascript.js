@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
   console.log('Serviceworker is avalable')
-  navigator.serviceWorker.register('/students/serviceworker.js');
+  navigator.serviceWorker.register('/serviceworker.js');
 } else {
   console.log('Serviceworker is NOT abalable')
 }

@@ -1,10 +1,10 @@
-const cacheName = 'cache-students';
+const cacheName = 'cache';
 
 // When website loads - cache resources from list 
 self.addEventListener('install', function(event) {
     event.waitUntil(
         caches.open(cacheName).then(function(cache) {
-            return cache.addAll(['/students/', '/students/javascript.js', '/students/mystyle.css', '/students/members.json', '/students/index.html', '/students/morten.png', '/students/nina.png', '/students/olivia.png']);
+            return cache.addAll(['/', '/javascript.js', '/mystyle.css', '/members.json', '/index.html', '/morten.png', '/nina.png', '/olivia.png']);
         })
     );
 });
